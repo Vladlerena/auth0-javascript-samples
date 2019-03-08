@@ -1,1 +1,1 @@
-auth0-javascript-samples/01-Login/index.php      
+<?php include_once("/01-Login/index.html"); ?>
