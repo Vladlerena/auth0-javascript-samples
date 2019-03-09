@@ -10,9 +10,9 @@ window.addEventListener('load', function() {
   loadingSpinner.style.display = 'none';
 
   var webAuth = new auth0.WebAuth({
-    domain: AUTH0_DOMAIN,
-    clientID: AUTH0_CLIENT_ID,
-    redirectUri: AUTH0_CALLBACK_URL,
+    domain: dev-dv6xb39g.auth0.com,
+    clientID: WPabtyt2_iYzodyLUHe6xQkleaQ-94iI,
+    redirectUri: https://vladlerena.herokuapp.com,
     responseType: 'token id_token',
     scope: 'openid profile',
     leeway: 60
